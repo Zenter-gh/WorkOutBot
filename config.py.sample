@@ -1,0 +1,13 @@
+
+config = {
+"telegram": {
+    "token":'Your token here'
+    },
+"db": {
+    "type":"mysql",
+    "host":"localhost",
+    "user":"bot",
+    "password":"bot",
+    "name":"bot"
+    }
+}
