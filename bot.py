@@ -1,9 +1,8 @@
 from config import config
-import telepot, time, pprint, argparse, re, random, time, schedule
+import telepot, time, argparse, re, random, schedule
 
 from sqlalchemy import Column, Integer
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.dialects.mysql import TEXT
